@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fri_24_feb">Fri,24 Feb</string>
+    <string name="clear">clear </string>
+    <string name="_13_c">13 c</string>
+    <string name="_1006_hpa">1006 hpa</string>
+    <string name="pressure">pressure</string>
+    <string name="_100">100 %</string>
+    <string name="humidity">Humidity</string>
+    <string name="_2_69m_s">2.69m/s</string>
+    <string name="wind">Wind</string>
+    <string name="_98">98 %</string>
+    <string name="cloud">cloud</string>
+    <string name="_0_0">0.0</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_115_m">115 m</string>
+    <string name="sunset">Sunset</string>
+    <string name="location">Location</string>
+    <string name="gps">Gps</string>
+    <string name="map">Map</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="temperature">Temperature</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="faherinheit">Faherinheit</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="meter_sec">Meter/Sec</string>
+    <string name="mile_hour">Mile/Hour</string>
+    <string name="_10_am">10 AM</string>
+    <string name="_30_c">30 c</string>
+    <string name="today">today</string>
+    <string name="tomo">tomo</string>
+    <string name="home">home</string>
+    <string name="MAP">Map</string>
+    <string name="fav">fav</string>
+    <string name="alert">alert</string>
+    <string name="settings">settings</string>
+    <string name="days_forecast">days forecast</string>
+    <string name="Temperature">Temperature</string>
+    <string name="forecast_weather">forecast weather</string>
+    <string name="forecast_time">forecast time</string>
+    <string name="add_alert">add_alert</string>
+    <string name="_7_march">_7_march</string>
+    <string name="_3_feb">3 Feb</string>
+    <string name="_3_00_pm">_3_00_pm</string>
+    <string name="_2_00_am">_2_00_am</string>
+
+    <string name="five_days_forecast">days forecast</string>
+    <string name="add_some_alerts">add some alerts</string>
+    <string name="beni_suef">Beni Suef</string>
+
+
+</resources>

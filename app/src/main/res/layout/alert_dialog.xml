@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_add_alert_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3F2F7"
+    android:focusableInTouchMode="false"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="13dp"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_margin="19dp"
+        android:elevation="10dp"
+        android:src="@drawable/close3" />
+
+    <LinearLayout
+        android:id="@+id/my_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_description_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:background="#FBFBF4"
+            app:hintTextColor="#FBFBF4">
+
+            <EditText
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#FBFBF4"
+                android:hint="title_of_alert"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:ems="10"
+                android:textSize="17sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/first_row_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_from_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="from" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_from_date_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#FBFBF4"
+                    android:padding="5dp"
+                    app:hintTextColor="#FBFBF4">
+
+                    <TextView
+                        android:id="@+id/tv_start_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_calendar"
+                        android:hint="dd_mm_yy"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/second_row_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_to_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="to"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Describtion_tv" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputto_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#FBFBF4"
+                    android:padding="5dp"
+                    app:hintTextColor="#FBFBF4">
+
+                    <TextView
+                        android:id="@+id/tv_end_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_calendar"
+                        android:hint="dd_mm_yy"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/first_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_from_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="from" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_from_time_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#FBFBF4"
+                    android:padding="5dp"
+                    app:hintTextColor="#FBFBF4">
+
+                    <TextView
+                        android:id="@+id/tv_start_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_baseline_add_alert_24"
+                        android:hint="_00_00"
+                        android:inputType="time"
+                        android:maxLines="1"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/second_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_to_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="to"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Describtion_tv" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#FBFBF4"
+                    android:padding="5dp"
+                    app:hintTextColor="#FBFBF4">
+
+                    <TextView
+                        android:id="@+id/tv_end_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_baseline_add_alert_24"
+                        android:hint="_00_00"
+                        android:inputType="time"
+                        android:maxLines="1"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center"
+            >
+        <Button
+            android:id="@+id/add_alert_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="21dp"
+            android:backgroundTint="#4BABF6"
+            app:cardElevation="13dp"
+            android:text="@string/add_alert" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

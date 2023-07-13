@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">توقعات الطقس</string>
+    <string name="hello_blank_fragment">مرحبًا بك في الشاشة الفارغة</string>
+    <string name="fri_24_feb">الجمعة، 24 فبراير</string>
+    <string name="clear">صافٍ</string>
+    <string name="_13_c">13 درجة مئوية</string>
+    <string name="_1006_hpa">1006 هكتوباسكال</string>
+    <string name="pressure">الضغط</string>
+    <string name="_100">100%</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="_2_69m_s">2.69 م/ث</string>
+    <string name="wind">الرياح</string>
+    <string name="_98">98%</string>
+    <string name="cloud">الغيوم</string>
+    <string name="_0_0">0.0</string>
+    <string name="sunrise">شروق الشمس</string>
+    <string name="_115_m">115 م</string>
+    <string name="sunset">غروب الشمس</string>
+    <string name="five_days_forecast">توقعات الايام</string>
+    <string name="location">الموقع</string>
+    <string name="gps">الموقع</string>
+    <string name="map">الخريطة</string>
+    <string name="language">اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="celsius">درجة مئوية</string>
+    <string name="kelvin">كلفن</string>
+    <string name="faherinheit">فهرنهايت</string>
+    <string name="wind_speed">سرعة الرياح</string>
+    <string name="meter_sec">متر/ثانية</string>
+    <string name="mile_hour">ميل/ساعة</string>
+    <string name="_10_am">10 صباحًا</string>
+    <string name="_30_c">30 درجة مئوية</string>
+
+    <string name="today">اليوم</string>
+    <string name="tomo">غدا</string>
+    <string name="home">الرئيسيه</string>
+    <string name="MAP">الخريطه</string>
+    <string name="fav">المفضله</string>
+    <string name="alert">المنبه</string>
+    <string name="settings">الاعدادات</string>
+    <string name="add_some_alerts">قم بآضافه منبه</string>
+
+    <string name="beni_suef">بني سويف</string>
+
+    <string name="days_forecast">ايام الطقس</string>
+
+
+
+</resources>
